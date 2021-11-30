@@ -1,6 +1,7 @@
 #define LOG_TAG "su"
 
-#include <binder/AppOpsManager.h>
+#include<sys/socket.h>
+#include<arpa/inet.h>
 #include <log/log.h>
 
 using namespace android;
