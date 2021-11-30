@@ -30,3 +30,5 @@ int connect_socket() {
 int request(struct app application) {
 	send(socket_desc , application, sizeof(application), 0);
 }
+
+#ENDIF
